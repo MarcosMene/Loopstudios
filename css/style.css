@@ -320,16 +320,16 @@ h2 {
 
 .hero h1 {
   position: absolute;
-  width: 88%;
-  min-width: 320px;
+  width: 280px;
+  min-width: 300px;
   max-width: 350px;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   border: 2px solid var(--white);
-  padding: 0.5em;
-  font-size: 2.6em;
+  padding: 0.4em;
+  font-size: 2.5em;
   font-weight: 300;
   text-transform: uppercase;
   color: var(--white);
@@ -342,14 +342,17 @@ h2 {
 /* HERO  */
 @media (min-width: 376px) and (max-width: 640px) {
   .hero h1 {
-    font-size: 2.6em;
+    font-size: 2.8em;
+   
+    min-width: 340px;
+    max-width: 400px;
   }
 }
 
 @media (min-width: 641px) and (max-width: 799px) {
   .hero h1 {
-    font-size: 3em;
-    width: 80%;
+    font-size: 3.2em;
+    width: 400px;
     min-width: 350px;
     max-width: 400px;
   }
