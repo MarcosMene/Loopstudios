@@ -1,14 +1,4 @@
-// function openCloseNav() {
-//     var checkBox = document.getElementById("menu-btn");
-    
-//     if (checkBox.checked == true){
-//         // document.getElementById("header_nav").style.display = "none";
-//         document.getElementById("side_nav").style.width = "100%";
-//     } else {
-//         // document.getElementById("header_nav").style.display = "block";
-//         document.getElementById("side_nav").style.width = "0";
-//     }
-//   }
+
 
 // HAMBURGER BUTTON ========
 
